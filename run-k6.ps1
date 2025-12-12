@@ -27,4 +27,4 @@ docker run --rm -v "${PWD}:/scripts" -w /scripts -p 5665:5665 `
     -e PEAK_VUS="$env:PEAK_VUS" `
     -e DURATION_PEAK="$env:DURATION_PEAK" `
     -e DURATION_RAMP="$env:DURATION_RAMP" `
-    grafana/k6 run login_API_load_test.js
+    grafana/k6 run K6_API_load_test.js

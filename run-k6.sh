@@ -15,4 +15,4 @@ docker run --rm \
   -v "$(pwd)":/scripts \
   -w /scripts \
   -p 5665:5665 \
-  grafana/k6 run login_API_load_test.js
+  grafana/k6 run K6_API_load_test.js
