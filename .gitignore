@@ -1,0 +1,7 @@
+# Git ignore file for k6 load test
+
+# 1. Exclude the actual configuration file containing sensitive data (Base URL, credentials)
+k6.env
+
+# 2. Exclude generated reports
+k6_report.html
