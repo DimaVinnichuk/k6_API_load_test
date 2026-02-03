@@ -2,6 +2,13 @@
 
 Load testing for API endpoints using k6.
 
+## Features
+
+- Docker-based execution (no local k6 installation needed)
+- Environment-driven configuration
+- Automated authentication and multi-endpoint testing
+- Real-time web dashboard and HTML reports
+
 ## Prerequisites
 
 - Docker
@@ -75,6 +82,20 @@ Each virtual user:
 3. If login fails, skips endpoint testing and logs the error
 4. Waits 2 seconds before the next iteration
 
-## Security
+## Skills Demonstrated
 
-The `k6.env` file contains sensitive data and should not be committed to Git (already added to `.gitignore`).
+**Performance Testing:**
+- Load testing with k6
+- Performance test design (ramping patterns)
+- Metrics interpretation
+
+**DevOps & Automation:**
+- Docker containerization
+- Shell scripting (Bash/PowerShell)
+- Environment-based configuration
+
+**API Testing:**
+- Authentication flow handling
+- RESTful API testing
+- Response validation
+- Error handling
